@@ -1,0 +1,15 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "Demo of Cypress UI automation",
+  "main": "index.js",
+  "scripts": {
+    "test:cli": "npx cypress run",
+    "test:plugin": "npx cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.4.1"
+  }
+}
