@@ -5,8 +5,14 @@ describe(`Item Card Component`,()=> {
     });
 
     it(`Card web components`,()=> {
-        //Should contin 17 Items
+        //Should contain 17 images
         cy.get("img").should('have.length', 16);
+
+        //Should have freeShipping text
+        cy.get("div").should("contain.text","Free shipping");
+
+        //Should display Add to cart button
+        cy.get('div').should("contain.text", "Add to cart");
 
     });
 });
