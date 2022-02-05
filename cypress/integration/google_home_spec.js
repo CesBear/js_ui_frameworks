@@ -1,5 +1,5 @@
 describe(`Test  ECommerce Site`, ()=> {
-    it(`Open home page`, ()=> {
+    it.skip(`Open home page`, ()=> {
         cy.visit('/');
     });
 });

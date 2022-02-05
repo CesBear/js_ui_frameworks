@@ -1,3 +1,5 @@
 {
-    "baseUrl": "https://react-shopping-cart-67954.firebaseapp.com/"
+    "baseUrl": "https://react-shopping-cart-67954.firebaseapp.com/",
+    "video": false,
+    "videoUploadOnPasses": false
 }
