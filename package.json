@@ -7,7 +7,7 @@
     "test:cli": "npx cypress run",
     "test:plugin": "npx cypress open"
   },
-  "author": "",
+  "author": "Cesar Ramirez",
   "license": "ISC",
   "dependencies": {
     "cypress": "^9.4.1"
