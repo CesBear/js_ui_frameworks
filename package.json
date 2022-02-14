@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:cli": "npx cypress run",
-    "test:plugin": "npx cypress open"
+    "test:plugin": "npx cypress open",
+    "test:dashboard": "npx cypress run --record --key 3f79b402-804b-42ad-b18d-d41c09567c59"
   },
   "author": "Cesar Ramirez",
   "license": "ISC",

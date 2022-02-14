@@ -1,5 +1,6 @@
 {
     "baseUrl": "https://react-shopping-cart-67954.firebaseapp.com/",
     "video": false,
-    "videoUploadOnPasses": false
+    "videoUploadOnPasses": false,
+    "projectId": "egaaed"
 }
