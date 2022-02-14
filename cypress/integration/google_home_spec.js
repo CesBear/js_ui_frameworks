@@ -1,4 +1,4 @@
-describe(`Test  ECommerce Site`, ()=> {
+describe("Hold", ()=> {
     it(`Open home page`, ()=> {
         cy.visit('/');
     });

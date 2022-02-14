@@ -15,5 +15,12 @@
   },
   "devDependencies": {
     "husky": "^7.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test",
+      "...": "..."
+    }
   }
 }
